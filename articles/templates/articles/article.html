@@ -1,0 +1,28 @@
+﻿{% extends 'base_layout.html' %}
+{% load static %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <meta charset="UTF-8">
+
+    
+<div class="articles">
+    {% for article in articles %}
+    <div class="polaroid">
+        <img src="{% static 'images1.png' %}">
+  
+        <div class="container">
+            <div class="article">
+                <h2>{{article.title}}</h2>
+                <p>{{article.snippet}}</p>
+                <p>{{article.date}}</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div><br><br>
+        </div></div>
+    {% endfor %}
+</div>
+    </body></html>
+{% endblock %}

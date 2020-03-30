@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: wheat;
+    background-repeat: repeat;
+    color: black;
+}
+
+body *{
+    font-family: Ubuntu;
+}
+
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-brand img{
+    height: 80px;
+    padding-left: 50px;
+}
+
+.navbar-nav li{
+  padding: 0 10px;
+}
+
+.navbar-nav li a{
+  float: right;
+  text-align: left;
+}
+
+#nav-bar ul li a:hover{
+  color: #007bff!important;
+}
+
+.navbar{
+  background: #fff;
+}
+
+.navbar-toggler{
+  border: none !important;
+}
+
+.nav-link{
+  color: #555 !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#slider {
+
+    max-height: 100%;
+    max-width: 100%;
+}
+
+a, a:hover, a:visited{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+@media(min-width: 40cm){
+.masthead{
+  padding: 3px 0px 4px;
+  
+}
+}
+
+.masthead{
+  position: relative;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(139, 120, 120, 0.2);
+  background-image: linear-gradient(pink, 0.2s);
+}
+
+.bg-light{
+  background-color: purple;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+img{
+        padding: 50px;
+        width: 150px;
+        height: 150px;
+}
+
+div.polaroid {
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.footer {
+    padding: 80px; 
+    text-align: center; 
+    text-decoration: white;
+    background: black;
+    text-decoration-color: paleturquoise; 
+  }
